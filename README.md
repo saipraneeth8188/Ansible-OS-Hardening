@@ -106,7 +106,7 @@ Want to add a role for AppArmor, firewalld, or logging to ELK? Feel free to fork
 
 ## 🧠 Author
 
-Built by [Sai Praneeth Senigapalli](https://github.com/saipraneeth8188), based on handwritten RHCE-level Ansible notes and real-world troubleshooting scenarios.
+Built by [Sai Praneeth](https://github.com/saipraneeth8188), based on handwritten RHCE-level Ansible notes and real-world troubleshooting scenarios.
 
 ---
 
