@@ -64,14 +64,14 @@ cd Ansible-OS-Hardening
 
 
 ### 2️⃣ Update Inventory File
-
+```
 # inventory/hosts.yml
 all:
   hosts:
     server1:
       ansible_host: 192.168.1.10
       ansible_user: ec2-user
-
+```
 
 ### 3️⃣ Run the Playbook
 
