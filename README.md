@@ -59,6 +59,7 @@ ansible-OS-Hardening/
 ### 1️⃣ Clone the repository
 
 git clone https://github.com/saipraneeth8188/Ansible-OS-Hardening.git
+
 cd Ansible-OS-Hardening
 
 
