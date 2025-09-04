@@ -1,0 +1,8 @@
+---
+- name: Server Hardening Playbook
+  hosts: all
+  become: yes
+  roles:
+    - ssh_hardening
+    - password_policy
+    - file_permissions

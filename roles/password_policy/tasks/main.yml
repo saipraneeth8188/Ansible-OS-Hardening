@@ -1,0 +1,11 @@
+---
+- name: Set password expiry to 90 days
+  command: chage -M 90 root
+
+- name: Enforce password history
+  lineinfile:
+    path: /etc/pam.d/system-auth
+    regexp: '^password.*pam_unix.so'
+    line: 'password sufficient pam_unix.so remember=5'
+    state: present
+    backup: yes

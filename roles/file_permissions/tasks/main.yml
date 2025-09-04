@@ -1,0 +1,10 @@
+---
+- name: Set permissions for /etc/passwd
+  file:
+    path: /etc/passwd
+    mode: '0644'
+
+- name: Set permissions for /etc/shadow
+  file:
+    path: /etc/shadow
+    mode: '0000'
