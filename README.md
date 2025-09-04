@@ -33,7 +33,7 @@ This project was designed to **prevent such RCA incidents from recurring**, maki
 
 ## 📂 Project Structure
 
-\`\`\`bash
+
 ansible-OS-Hardening/
 ├── inventory/
 │   └── hosts.yml
@@ -50,32 +50,32 @@ ansible-OS-Hardening/
 ├── group_vars/
 │   └── all.yml
 └── README.md
-\`\`\`
+
 
 ---
 
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository
-\`\`\`bash
+
 git clone https://github.com/saipraneeth8188/Ansible-OS-Hardening.git
 cd Ansible-OS-Hardening
-\`\`\`
+
 
 ### 2️⃣ Update Inventory File
-\`\`\`yaml
+
 # inventory/hosts.yml
 all:
   hosts:
     server1:
       ansible_host: 192.168.1.10
       ansible_user: ec2-user
-\`\`\`
+
 
 ### 3️⃣ Run the Playbook
-\`\`\`bash
+
 ansible-playbook -i inventory/hosts.yml playbooks/site.yml
-\`\`\`
+
 
 ---
 
