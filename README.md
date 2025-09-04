@@ -33,7 +33,7 @@ This project was designed to **prevent such RCA incidents from recurring**, maki
 
 ## 📂 Project Structure
 
-
+```
 ansible-OS-Hardening/
 ├── inventory/
 │   └── hosts.yml
@@ -50,7 +50,7 @@ ansible-OS-Hardening/
 ├── group_vars/
 │   └── all.yml
 └── README.md
-
+```
 
 ---
 
